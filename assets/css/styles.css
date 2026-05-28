@@ -174,7 +174,8 @@ strong { color: var(--c-ink); }
   padding: 1rem;
   box-shadow: var(--shadow);
 }
-.hero-visual svg { width: 100%; height: auto; display: block; }
+.hero-visual svg,
+.hero-visual img { width: 100%; height: auto; display: block; border-radius: var(--radius-sm); }
 
 /* Cards */
 .card {

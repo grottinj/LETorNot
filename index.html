@@ -42,80 +42,12 @@
         </div>
       </div>
       <div class="hero-visual">
-        <svg
-          viewBox="0 0 360 360"
-          role="img"
-          aria-labelledby="knee-svg-title knee-svg-desc"
-          xmlns="http://www.w3.org/2000/svg">
-          <title id="knee-svg-title">Diagram of a knee joint showing the ACL</title>
-          <desc id="knee-svg-desc">A friendly schematic side view of the knee. The femur (thigh bone) is shown above the joint and the tibia (shin bone) below. The ACL is highlighted as an orange band crossing diagonally inside the joint space. The kneecap sits at the front of the joint.</desc>
-
-          <!-- Femur (thigh bone) — lower rounded end -->
-          <ellipse cx="168" cy="98" rx="52" ry="28" fill="#d6ebe9" stroke="#186b6b" stroke-width="2"/>
-          <rect x="116" y="30" width="104" height="72" rx="18" fill="#d6ebe9" stroke="#186b6b" stroke-width="2"/>
-          <!-- Femoral condyles -->
-          <ellipse cx="138" cy="140" rx="32" ry="22" fill="#d6ebe9" stroke="#186b6b" stroke-width="2"/>
-          <ellipse cx="210" cy="140" rx="32" ry="22" fill="#d6ebe9" stroke="#186b6b" stroke-width="2"/>
-
-          <!-- Tibia (shin bone) — upper flat end -->
-          <rect x="110" y="182" width="140" height="110" rx="16" fill="#d6ebe9" stroke="#186b6b" stroke-width="2"/>
-          <!-- Tibial plateau (flat top surface) -->
-          <ellipse cx="180" cy="182" rx="70" ry="16" fill="#eef4f3" stroke="#186b6b" stroke-width="2"/>
-
-          <!-- Kneecap (patella) — front left -->
-          <ellipse cx="88" cy="162" rx="22" ry="26" fill="#d6ebe9" stroke="#186b6b" stroke-width="2"/>
-          <!-- Patellar tendon hint -->
-          <line x1="88" y1="188" x2="118" y2="198" stroke="#186b6b" stroke-width="1.5" stroke-dasharray="4 3"/>
-
-          <!-- Meniscus hint (curved lines on tibial plateau) -->
-          <path d="M125 185 Q148 178 155 185" stroke="#186b6b" stroke-width="1.5" fill="none" opacity="0.55"/>
-          <path d="M205 185 Q218 178 235 185" stroke="#186b6b" stroke-width="1.5" fill="none" opacity="0.55"/>
-
-          <!-- ACL — highlighted orange diagonal band -->
-          <!-- Wide band: two parallel diagonal paths + fill polygon -->
-          <polygon
-            points="152,172 162,172 222,148 212,148"
-            fill="#c2541a"
-            opacity="0.25"/>
-          <line x1="157" y1="172" x2="217" y2="148" stroke="#c2541a" stroke-width="5" stroke-linecap="round"/>
-          <line x1="163" y1="175" x2="223" y2="151" stroke="#c2541a" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
-
-          <!-- PCL hint (dashed, behind ACL) -->
-          <line x1="168" y1="172" x2="198" y2="145" stroke="#186b6b" stroke-width="2" stroke-dasharray="5 4" opacity="0.4"/>
-
-          <!-- Joint space outline -->
-          <line x1="110" y1="164" x2="250" y2="164" stroke="#186b6b" stroke-width="1" stroke-dasharray="3 3" opacity="0.3"/>
-
-          <!-- Labels -->
-          <!-- Femur label -->
-          <text x="250" y="72" font-family="-apple-system, Arial, sans-serif" font-size="13" fill="#186b6b" font-weight="600">Femur</text>
-          <text x="250" y="86" font-family="-apple-system, Arial, sans-serif" font-size="11" fill="#3b5358">(thigh bone)</text>
-          <line x1="248" y1="78" x2="222" y2="78" stroke="#186b6b" stroke-width="1" marker-end="url(#arr)"/>
-
-          <!-- Tibia label -->
-          <text x="258" y="228" font-family="-apple-system, Arial, sans-serif" font-size="13" fill="#186b6b" font-weight="600">Tibia</text>
-          <text x="258" y="242" font-family="-apple-system, Arial, sans-serif" font-size="11" fill="#3b5358">(shin bone)</text>
-          <line x1="256" y1="233" x2="252" y2="220" stroke="#186b6b" stroke-width="1" marker-end="url(#arr)"/>
-
-          <!-- Kneecap label -->
-          <text x="18" y="148" font-family="-apple-system, Arial, sans-serif" font-size="12" fill="#186b6b" font-weight="600">Kneecap</text>
-          <text x="18" y="162" font-family="-apple-system, Arial, sans-serif" font-size="11" fill="#3b5358">(patella)</text>
-          <line x1="66" y1="155" x2="78" y2="158" stroke="#186b6b" stroke-width="1" marker-end="url(#arr)"/>
-
-          <!-- ACL label -->
-          <text x="240" y="158" font-family="-apple-system, Arial, sans-serif" font-size="14" fill="#c2541a" font-weight="700">ACL</text>
-          <line x1="238" y1="155" x2="224" y2="152" stroke="#c2541a" stroke-width="1.5" marker-end="url(#arr-accent)"/>
-
-          <!-- Arrow marker definitions -->
-          <defs>
-            <marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
-              <path d="M0,0 L6,3 L0,6 Z" fill="#186b6b"/>
-            </marker>
-            <marker id="arr-accent" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
-              <path d="M0,0 L6,3 L0,6 Z" fill="#c2541a"/>
-            </marker>
-          </defs>
-        </svg>
+        <img
+          src="assets/img/knee-hero.png"
+          alt="Anatomical illustration of a knee joint shown from the front. The thigh bone (femur) sits above and the shin bone (tibia) below, separated by the joint space. In the center of the joint, the torn ACL is visible as a frayed reddish stump of tissue. The two C-shaped menisci sit on either side of the joint, on top of the shin bone."
+          width="1024"
+          height="1536"
+          loading="eager">
       </div>
     </div>
   </section>
