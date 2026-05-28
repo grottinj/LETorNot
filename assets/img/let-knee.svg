@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="let-title let-desc">
+  <title id="let-title">Diagram of the knee from the outside showing the LET tissue strip</title>
+  <desc id="let-desc">A schematic lateral (outside) view of the right knee. The femur is at top, tibia and fibula below. The iliotibial band (IT band) runs down the outside of the thigh. The LET strip is highlighted in rust-orange, running from the lateral femur to Gerdy's tubercle on the tibia, showing how it wraps under the fibular collateral ligament.</desc>
+
+  <!-- background -->
+  <rect width="500" height="500" fill="#f7faf9" rx="12"/>
+
+  <!-- FEMUR shaft (lateral view — slightly forward taper) -->
+  <path d="M195 30 Q200 140 185 195 Q190 205 215 210 Q235 205 235 195 Q225 140 235 30 Z"
+        fill="#d6e0e0" stroke="#186b6b" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- femur condyle lateral -->
+  <ellipse cx="210" cy="208" rx="32" ry="22" fill="#d6e0e0" stroke="#186b6b" stroke-width="2.5"/>
+
+  <!-- joint line -->
+  <line x1="178" y1="222" x2="285" y2="222" stroke="#eef4f3" stroke-width="6"/>
+
+  <!-- TIBIA plateau + shaft -->
+  <path d="M178 222 Q178 230 185 235 L185 405 Q195 425 215 425 Q235 425 245 405 L245 235 Q252 230 252 222 Z"
+        fill="#d6e0e0" stroke="#186b6b" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Gerdy's tubercle — bump on front-lateral tibia -->
+  <ellipse cx="248" cy="248" rx="10" ry="8" fill="#c2541a" stroke="#186b6b" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- FIBULA -->
+  <rect x="262" y="248" width="24" height="160" rx="11" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+
+  <!-- IT BAND — broad soft tissue strip down lateral thigh -->
+  <path d="M240 30 Q260 120 265 190 Q268 205 255 215 Q245 220 242 215 Q238 205 238 190 Q235 120 235 30"
+        fill="#d6e0e0" stroke="#186b6b" stroke-width="1.5" stroke-dasharray="6,3" opacity="0.7"/>
+
+  <!-- LET STRIP — highlighted in rust, from lateral femur, passing under FCL, inserting at Gerdy's tubercle -->
+  <!-- proximal attachment on lateral femur -->
+  <circle cx="236" cy="185" r="5" fill="#c2541a"/>
+  <!-- LET strip path -->
+  <path d="M236 185 Q252 200 258 220 Q260 235 250 248"
+        stroke="#c2541a" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <!-- LET strip second edge to show width -->
+  <path d="M232 188 Q248 204 253 225 Q255 238 248 250"
+        stroke="#c2541a" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.45"/>
+
+  <!-- Fibular collateral ligament (FCL) marker -->
+  <line x1="252" y1="215" x2="270" y2="215" stroke="#186b6b" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="273" y="219" font-family="sans-serif" font-size="10" fill="#186b6b">FCL (passes over LET)</text>
+
+  <!-- ---- LABELS ---- -->
+  <!-- Femur -->
+  <line x1="193" y1="90" x2="138" y2="90" stroke="#3b5358" stroke-width="1.2"/>
+  <text x="132" y="94" font-family="sans-serif" font-size="13" fill="#3b5358" text-anchor="end">Femur</text>
+  <text x="132" y="109" font-family="sans-serif" font-size="11" fill="#607478" text-anchor="end">(thigh bone)</text>
+
+  <!-- IT Band -->
+  <line x1="252" y1="100" x2="320" y2="90" stroke="#3b5358" stroke-width="1.2"/>
+  <text x="325" y="88" font-family="sans-serif" font-size="13" fill="#3b5358" text-anchor="start">IT band</text>
+  <text x="325" y="103" font-family="sans-serif" font-size="11" fill="#607478" text-anchor="start">(iliotibial band)</text>
+
+  <!-- LET strip label -->
+  <line x1="255" y1="220" x2="335" y2="200" stroke="#c2541a" stroke-width="1.2"/>
+  <text x="340" y="198" font-family="sans-serif" font-size="13" fill="#c2541a" text-anchor="start" font-weight="600">LET strip</text>
+  <text x="340" y="213" font-family="sans-serif" font-size="11" fill="#c2541a" text-anchor="start">(lateral extra-articular</text>
+  <text x="340" y="227" font-family="sans-serif" font-size="11" fill="#c2541a" text-anchor="start">tenodesis)</text>
+
+  <!-- Gerdy's tubercle label -->
+  <line x1="252" y1="252" x2="330" y2="265" stroke="#3b5358" stroke-width="1.2"/>
+  <text x="335" y="269" font-family="sans-serif" font-size="12" fill="#3b5358" text-anchor="start">Gerdy's tubercle</text>
+  <text x="335" y="283" font-family="sans-serif" font-size="10" fill="#607478" text-anchor="start">(LET insertion point)</text>
+
+  <!-- Tibia -->
+  <line x1="190" y1="340" x2="130" y2="340" stroke="#3b5358" stroke-width="1.2"/>
+  <text x="124" y="344" font-family="sans-serif" font-size="13" fill="#3b5358" text-anchor="end">Tibia</text>
+  <text x="124" y="359" font-family="sans-serif" font-size="11" fill="#607478" text-anchor="end">(shin bone)</text>
+
+  <!-- Fibula -->
+  <line x1="274" y1="360" x2="335" y2="360" stroke="#3b5358" stroke-width="1.2"/>
+  <text x="340" y="364" font-family="sans-serif" font-size="13" fill="#3b5358" text-anchor="start">Fibula</text>
+
+  <!-- caption -->
+  <text x="250" y="465" font-family="sans-serif" font-size="12" fill="#607478" text-anchor="middle">Right knee — outside (lateral) view (schematic)</text>
+  <text x="250" y="481" font-family="sans-serif" font-size="12" fill="#c2541a" text-anchor="middle">LET strip highlighted in orange</text>
+</svg>

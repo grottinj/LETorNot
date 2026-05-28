@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 260" role="img" aria-labelledby="grafts-title grafts-desc">
+  <title id="grafts-title">Three knee silhouettes showing where each ACL graft is harvested</title>
+  <desc id="grafts-desc">Three side-by-side schematic knee outlines. Left: Hamstring graft — the harvest site is at the back of the thigh. Center: Patellar tendon graft (BTB) — harvest is from the front of the knee between the kneecap and shin bone. Right: Quadriceps tendon graft — harvest is from the top of the kneecap into the thigh muscle.</desc>
+
+  <rect width="500" height="260" fill="#f7faf9" rx="10"/>
+
+  <!-- ========== GRAFT 1: HAMSTRING (left panel) ========== -->
+  <!-- femur -->
+  <rect x="40" y="20" width="44" height="80" rx="12" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+  <ellipse cx="52" cy="104" rx="18" ry="13" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+  <ellipse cx="72" cy="104" rx="18" ry="13" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+  <!-- tibia -->
+  <rect x="42" y="116" width="38" height="80" rx="10" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+  <!-- fibula -->
+  <rect x="86" y="122" width="14" height="66" rx="6" fill="#d6e0e0" stroke="#186b6b" stroke-width="1.5"/>
+  <!-- patella -->
+  <ellipse cx="32" cy="94" rx="11" ry="15" fill="#eef4f3" stroke="#186b6b" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- harvest highlight: back of thigh (hamstring tendons) -->
+  <rect x="88" y="30" width="18" height="65" rx="8" fill="#c2541a" opacity="0.85" stroke="#c2541a" stroke-width="1.5"/>
+  <line x1="97" y1="30" x2="125" y2="18" stroke="#c2541a" stroke-width="1.2"/>
+  <text x="128" y="16" font-family="sans-serif" font-size="10" fill="#c2541a" text-anchor="start">harvest here</text>
+
+  <!-- label -->
+  <text x="62" y="220" font-family="sans-serif" font-size="12" fill="#0d4444" text-anchor="middle" font-weight="700">Hamstring</text>
+  <text x="62" y="234" font-family="sans-serif" font-size="10" fill="#607478" text-anchor="middle">back of thigh</text>
+  <text x="62" y="248" font-family="sans-serif" font-size="10" fill="#607478" text-anchor="middle">(semitendinosus /</text>
+  <text x="62" y="260" font-family="sans-serif" font-size="10" fill="#607478" text-anchor="middle">gracilis tendons)</text>
+
+  <!-- ========== GRAFT 2: PATELLAR TENDON / BTB (center panel) ========== -->
+  <!-- femur -->
+  <rect x="196" y="20" width="44" height="80" rx="12" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+  <ellipse cx="208" cy="104" rx="18" ry="13" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+  <ellipse cx="228" cy="104" rx="18" ry="13" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+  <!-- tibia -->
+  <rect x="198" y="116" width="38" height="80" rx="10" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+  <!-- fibula -->
+  <rect x="242" y="122" width="14" height="66" rx="6" fill="#d6e0e0" stroke="#186b6b" stroke-width="1.5"/>
+  <!-- patella -->
+  <ellipse cx="186" cy="94" rx="11" ry="15" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+
+  <!-- patellar tendon strip (front of knee) — BTB harvest highlighted -->
+  <rect x="178" y="108" width="12" height="28" rx="4" fill="#c2541a" opacity="0.85" stroke="#c2541a" stroke-width="1.5"/>
+  <line x1="172" y1="120" x2="145" y2="115" stroke="#c2541a" stroke-width="1.2"/>
+  <text x="140" y="113" font-family="sans-serif" font-size="10" fill="#c2541a" text-anchor="end">harvest here</text>
+
+  <!-- label -->
+  <text x="218" y="220" font-family="sans-serif" font-size="12" fill="#0d4444" text-anchor="middle" font-weight="700">Patellar Tendon</text>
+  <text x="218" y="234" font-family="sans-serif" font-size="10" fill="#607478" text-anchor="middle">front of knee</text>
+  <text x="218" y="248" font-family="sans-serif" font-size="10" fill="#607478" text-anchor="middle">(bone–tendon–bone,</text>
+  <text x="218" y="260" font-family="sans-serif" font-size="10" fill="#607478" text-anchor="middle">BTB / BPTB)</text>
+
+  <!-- ========== GRAFT 3: QUADRICEPS TENDON (right panel) ========== -->
+  <!-- femur -->
+  <rect x="352" y="20" width="44" height="80" rx="12" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+  <ellipse cx="364" cy="104" rx="18" ry="13" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+  <ellipse cx="384" cy="104" rx="18" ry="13" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+  <!-- tibia -->
+  <rect x="354" y="116" width="38" height="80" rx="10" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+  <!-- fibula -->
+  <rect x="398" y="122" width="14" height="66" rx="6" fill="#d6e0e0" stroke="#186b6b" stroke-width="1.5"/>
+  <!-- patella -->
+  <ellipse cx="342" cy="94" rx="11" ry="15" fill="#d6e0e0" stroke="#186b6b" stroke-width="2"/>
+
+  <!-- quadriceps tendon harvest — above patella -->
+  <rect x="334" y="52" width="12" height="36" rx="4" fill="#c2541a" opacity="0.85" stroke="#c2541a" stroke-width="1.5"/>
+  <line x1="335" y1="55" x2="310" y2="38" stroke="#c2541a" stroke-width="1.2"/>
+  <text x="305" y="36" font-family="sans-serif" font-size="10" fill="#c2541a" text-anchor="end">harvest here</text>
+
+  <!-- label -->
+  <text x="374" y="220" font-family="sans-serif" font-size="12" fill="#0d4444" text-anchor="middle" font-weight="700">Quadriceps Tendon</text>
+  <text x="374" y="234" font-family="sans-serif" font-size="10" fill="#607478" text-anchor="middle">top of kneecap</text>
+  <text x="374" y="248" font-family="sans-serif" font-size="10" fill="#607478" text-anchor="middle">(quad tendon, with</text>
+  <text x="374" y="260" font-family="sans-serif" font-size="10" fill="#607478" text-anchor="middle">or without bone plug)</text>
+
+  <!-- divider lines -->
+  <line x1="160" y1="15" x2="160" y2="205" stroke="#d6e0e0" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="316" y1="15" x2="316" y2="205" stroke="#d6e0e0" stroke-width="1.5" stroke-dasharray="4,3"/>
+</svg>
