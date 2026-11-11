@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 210" width="640" height="210" role="img" aria-labelledby="graft-patellar-t graft-patellar-d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <title id="graft-patellar-t">Patellar tendon graft</title>
+  <desc id="graft-patellar-d">A prepared patellar tendon graft: a flat band of tendon with a small plug of bone at each end.</desc>
+
+  <defs>
+    <linearGradient id="bone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dccaa4"/>
+      <stop offset="0.28" stop-color="#f3e9d2"/>
+      <stop offset="0.62" stop-color="#f7efdc"/>
+      <stop offset="1" stop-color="#d9c69d"/>
+    </linearGradient>
+    <linearGradient id="boneV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6eedb"/>
+      <stop offset="1" stop-color="#dfcfab"/>
+    </linearGradient>
+    <linearGradient id="cart" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f9fb"/>
+      <stop offset="1" stop-color="#d5e0e7"/>
+    </linearGradient>
+    <linearGradient id="lig" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9d3c6"/>
+      <stop offset="0.5" stop-color="#f6f3ec"/>
+      <stop offset="1" stop-color="#d2ccbe"/>
+    </linearGradient>
+    <linearGradient id="rust" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b54a13"/>
+      <stop offset="0.5" stop-color="#e07a42"/>
+      <stop offset="1" stop-color="#b54a13"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#125a5a"/>
+      <stop offset="0.5" stop-color="#3f9a98"/>
+      <stop offset="1" stop-color="#125a5a"/>
+    </linearGradient>
+    <linearGradient id="indigo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#43408f"/>
+      <stop offset="0.5" stop-color="#7b78c9"/>
+      <stop offset="1" stop-color="#43408f"/>
+    </linearGradient>
+    <linearGradient id="muscle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9645c"/>
+      <stop offset="0.5" stop-color="#d98d82"/>
+      <stop offset="1" stop-color="#b9645c"/>
+    </linearGradient>
+    <linearGradient id="menis" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecd3cb"/>
+      <stop offset="1" stop-color="#cfa79c"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#8d7868"/>
+      <stop offset="1" stop-color="#5e4f45"/>
+    </radialGradient>
+    <pattern id="spongy" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="1.3" fill="#c9b58c" opacity="0.55"/>
+      <circle cx="10" cy="10" r="1.1" fill="#c9b58c" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+<rect width="640" height="210" rx="14" fill="#ffffff"/>
+<rect x="150" y="80" width="340" height="36" fill="url(#rust)" stroke="#8f3a0e" stroke-width="2" transform="rotate(0)"/>
+<line x1="154" y1="89" x2="486" y2="89" stroke="#8f3a0e" stroke-width="1" opacity="0.5"/>
+<line x1="154" y1="98" x2="486" y2="98" stroke="#8f3a0e" stroke-width="1" opacity="0.5"/>
+<line x1="154" y1="107" x2="486" y2="107" stroke="#8f3a0e" stroke-width="1" opacity="0.5"/>
+<rect x="60" y="74" width="100" height="48" rx="6" fill="url(#boneV)" stroke="#8f7a55" stroke-width="2.4"/>
+<rect x="60" y="74" width="100" height="48" rx="6" fill="url(#spongy)"/>
+<rect x="480" y="74" width="100" height="48" rx="6" fill="url(#boneV)" stroke="#8f7a55" stroke-width="2.4"/>
+<rect x="480" y="74" width="100" height="48" rx="6" fill="url(#spongy)"/>
+<text x="110" y="44" font-size="20" font-weight="600" fill="#1a2b2e" text-anchor="middle">Bone plug</text>
+<text x="320" y="44" font-size="20" font-weight="600" fill="#c2541a" text-anchor="middle">Patellar tendon</text>
+<text x="530" y="44" font-size="20" font-weight="600" fill="#1a2b2e" text-anchor="middle">Bone plug</text>
+<line x1="110" y1="52" x2="110" y2="70" stroke="#465b60" stroke-width="1.6"/><line x1="320" y1="52" x2="320" y2="76" stroke="#c2541a" stroke-width="1.6"/><line x1="530" y1="52" x2="530" y2="70" stroke="#465b60" stroke-width="1.6"/>
+<text x="320" y="176" font-size="18" font-weight="400" fill="#465b60" text-anchor="middle">Bone at each end heals into the bone tunnels</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 210" width="640" height="210" role="img" aria-labelledby="graft-quadriceps-t graft-quadriceps-d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <title id="graft-quadriceps-t">Quadriceps tendon graft</title>
+  <desc id="graft-quadriceps-d">A prepared quadriceps tendon graft: one thick band of tendon. A dashed outline at one end shows the small block of kneecap bone that is sometimes taken with it.</desc>
+
+  <defs>
+    <linearGradient id="bone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dccaa4"/>
+      <stop offset="0.28" stop-color="#f3e9d2"/>
+      <stop offset="0.62" stop-color="#f7efdc"/>
+      <stop offset="1" stop-color="#d9c69d"/>
+    </linearGradient>
+    <linearGradient id="boneV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6eedb"/>
+      <stop offset="1" stop-color="#dfcfab"/>
+    </linearGradient>
+    <linearGradient id="cart" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f9fb"/>
+      <stop offset="1" stop-color="#d5e0e7"/>
+    </linearGradient>
+    <linearGradient id="lig" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9d3c6"/>
+      <stop offset="0.5" stop-color="#f6f3ec"/>
+      <stop offset="1" stop-color="#d2ccbe"/>
+    </linearGradient>
+    <linearGradient id="rust" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b54a13"/>
+      <stop offset="0.5" stop-color="#e07a42"/>
+      <stop offset="1" stop-color="#b54a13"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#125a5a"/>
+      <stop offset="0.5" stop-color="#3f9a98"/>
+      <stop offset="1" stop-color="#125a5a"/>
+    </linearGradient>
+    <linearGradient id="indigo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#43408f"/>
+      <stop offset="0.5" stop-color="#7b78c9"/>
+      <stop offset="1" stop-color="#43408f"/>
+    </linearGradient>
+    <linearGradient id="muscle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9645c"/>
+      <stop offset="0.5" stop-color="#d98d82"/>
+      <stop offset="1" stop-color="#b9645c"/>
+    </linearGradient>
+    <linearGradient id="menis" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecd3cb"/>
+      <stop offset="1" stop-color="#cfa79c"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#8d7868"/>
+      <stop offset="1" stop-color="#5e4f45"/>
+    </radialGradient>
+    <pattern id="spongy" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="1.3" fill="#c9b58c" opacity="0.55"/>
+      <circle cx="10" cy="10" r="1.1" fill="#c9b58c" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+<rect width="640" height="210" rx="14" fill="#ffffff"/>
+<rect x="170" y="70" width="390" height="50" rx="10" fill="url(#indigo)" stroke="#2f2c78" stroke-width="2"/>
+<line x1="176" y1="82" x2="552" y2="82" stroke="#2f2c78" stroke-width="1" opacity="0.5"/>
+<line x1="176" y1="95" x2="552" y2="95" stroke="#2f2c78" stroke-width="1" opacity="0.5"/>
+<line x1="176" y1="108" x2="552" y2="108" stroke="#2f2c78" stroke-width="1" opacity="0.5"/>
+<rect x="70" y="67" width="106" height="56" rx="6" fill="#f6eedb" stroke="#8f7a55" stroke-width="2.4" stroke-dasharray="8 6"/>
+<rect x="70" y="67" width="106" height="56" rx="6" fill="url(#spongy)"/>
+<text x="123" y="42" font-size="20" font-weight="600" fill="#1a2b2e" text-anchor="middle">Bone plug</text>
+<text x="123" y="150" font-size="17" font-weight="400" fill="#465b60" text-anchor="middle">(not always used)</text>
+<text x="366" y="42" font-size="20" font-weight="600" fill="#4a47a0" text-anchor="middle">Quadriceps tendon</text>
+<line x1="123" y1="50" x2="123" y2="64" stroke="#465b60" stroke-width="1.6"/><line x1="366" y1="50" x2="366" y2="68" stroke="#4a47a0" stroke-width="1.6"/>
+<text x="366" y="176" font-size="18" font-weight="400" fill="#465b60" text-anchor="middle">A thick single band of tendon</text>
+</svg>

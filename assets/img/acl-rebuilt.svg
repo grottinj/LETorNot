@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 720" width="640" height="720" role="img" aria-labelledby="acl-graft-t acl-graft-d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <title id="acl-graft-t">Rebuilt ACL: graft in bone tunnels</title>
+  <desc id="acl-graft-d">The same front view of a right knee after ACL reconstruction. A new graft, shown in orange, passes through a tunnel in the thigh bone, crosses the joint where the old ACL was, and continues into a tunnel in the shin bone. A small button holds the graft on the outer surface of the thigh bone and a screw holds it in the shin bone tunnel.</desc>
+
+  <defs>
+    <linearGradient id="bone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dccaa4"/>
+      <stop offset="0.28" stop-color="#f3e9d2"/>
+      <stop offset="0.62" stop-color="#f7efdc"/>
+      <stop offset="1" stop-color="#d9c69d"/>
+    </linearGradient>
+    <linearGradient id="boneV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6eedb"/>
+      <stop offset="1" stop-color="#dfcfab"/>
+    </linearGradient>
+    <linearGradient id="cart" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f9fb"/>
+      <stop offset="1" stop-color="#d5e0e7"/>
+    </linearGradient>
+    <linearGradient id="lig" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9d3c6"/>
+      <stop offset="0.5" stop-color="#f6f3ec"/>
+      <stop offset="1" stop-color="#d2ccbe"/>
+    </linearGradient>
+    <linearGradient id="rust" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b54a13"/>
+      <stop offset="0.5" stop-color="#e07a42"/>
+      <stop offset="1" stop-color="#b54a13"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#125a5a"/>
+      <stop offset="0.5" stop-color="#3f9a98"/>
+      <stop offset="1" stop-color="#125a5a"/>
+    </linearGradient>
+    <linearGradient id="indigo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#43408f"/>
+      <stop offset="0.5" stop-color="#7b78c9"/>
+      <stop offset="1" stop-color="#43408f"/>
+    </linearGradient>
+    <linearGradient id="muscle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9645c"/>
+      <stop offset="0.5" stop-color="#d98d82"/>
+      <stop offset="1" stop-color="#b9645c"/>
+    </linearGradient>
+    <linearGradient id="menis" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecd3cb"/>
+      <stop offset="1" stop-color="#cfa79c"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#8d7868"/>
+      <stop offset="1" stop-color="#5e4f45"/>
+    </radialGradient>
+    <pattern id="spongy" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="1.3" fill="#c9b58c" opacity="0.55"/>
+      <circle cx="10" cy="10" r="1.1" fill="#c9b58c" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+<rect width="640" height="720" rx="14" fill="#ffffff"/>
+<text x="320.0" y="40" font-size="27" font-weight="700" fill="#0d4444" text-anchor="middle">A rebuilt ACL</text>
+<text x="320.0" y="66" font-size="18" fill="#465b60" text-anchor="middle">Right knee, front view, kneecap not shown</text>
+<g transform="translate(86 96) scale(0.9)">
+<path d="M92 446 C86 420 106 404 124 408 C142 412 150 432 144 458 C138 500 134 560 134 640 L110 640 C110 560 106 500 98 470 Z" fill="url(#bone)" stroke="#8f7a55" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M110 384 C108 372 122 366 150 367 L226 371 C238 371 244 353 251 351 C256 350 258 356 261 356 C264 356 266 350 271 351 C278 353 284 371 296 371 L372 367 C400 366 418 372 418 386 C420 404 410 420 396 436 C366 470 332 500 324 560 L320 640 L204 640 C202 560 190 505 152 458 C128 432 112 410 110 384 Z" fill="url(#bone)" stroke="#8f7a55" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M110 384 C108 372 122 366 150 367 L226 371 C238 371 244 353 251 351 C256 350 258 356 261 356 C264 356 266 350 271 351 C278 353 284 371 296 371 L372 367 C400 366 418 372 418 386 C420 404 410 420 396 436 C366 470 332 500 324 560 L320 640 L204 640 C202 560 190 505 152 458 C128 432 112 410 110 384 Z" fill="url(#spongy)" opacity="0.5"/>
+<path d="M240 452 C246 438 276 438 282 452 C288 474 280 506 262 512 C246 506 234 474 240 452 Z" fill="#efe3c6" stroke="#b9a57c" stroke-width="1.6" opacity="0.9"/>
+<path d="M112 384 C110 373 124 367 150 368 L226 372 L226 380 L150 378 C132 378 120 380 112 384 Z" fill="url(#cart)" stroke="#a9b8c2" stroke-width="1.2"/>
+<path d="M416 386 C418 373 402 367 372 368 L296 372 L296 380 L372 378 C392 378 406 381 416 386 Z" fill="url(#cart)" stroke="#a9b8c2" stroke-width="1.2"/>
+<path d="M215 304 C215 254 234 222 260 222 C286 222 305 254 305 304 L305 374 L215 374 Z" fill="url(#shadow)"/>
+<path d="M302 244 C294 288 268 332 234 362 L264 370 C284 344 298 312 303 288 Z" fill="url(#lig)" stroke="#9a927f" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M300 258 C292 298 270 334 244 364" stroke="#b3ab99" stroke-width="1.1" fill="none"/>
+<path d="M302 274 C296 308 278 342 256 367" stroke="#b3ab99" stroke-width="1.1" fill="none"/>
+<path d="M205 0 C205 70 200 120 172 165 C132 205 104 240 107 287 C110 324 140 344 182 342 C206 341 217 328 217 300 C217 254 234 224 260 224 C286 224 303 254 303 300 C303 330 318 348 346 349 C386 350 416 326 416 288 C417 242 390 205 350 165 C320 120 315 70 315 0 Z" fill="url(#bone)" stroke="#8f7a55" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M205 0 C205 70 200 120 172 165 C132 205 104 240 107 287 C110 324 140 344 182 342 C206 341 217 328 217 300 C217 254 234 224 260 224 C286 224 303 254 303 300 C303 330 318 348 346 349 C386 350 416 326 416 288 C417 242 390 205 350 165 C320 120 315 70 315 0 Z" fill="url(#spongy)" opacity="0.5"/>
+<clipPath id="femclip-graft"><path d="M205 0 C205 70 200 120 172 165 C132 205 104 240 107 287 C110 324 140 344 182 342 C206 341 217 328 217 300 C217 254 234 224 260 224 C286 224 303 254 303 300 C303 330 318 348 346 349 C386 350 416 326 416 288 C417 242 390 205 350 165 C320 120 315 70 315 0 Z"/></clipPath>
+<g clip-path="url(#femclip-graft)"><path d="M90 268 C130 222 200 196 260 204 C320 196 390 222 432 268 L432 360 L90 360 Z" fill="url(#cart)" stroke="#a9b8c2" stroke-width="1.6"/><ellipse cx="166" cy="296" rx="34" ry="24" fill="#ffffff" opacity="0.55"/><ellipse cx="356" cy="300" rx="36" ry="25" fill="#ffffff" opacity="0.55"/><path d="M260 206 C258 214 258 222 260 228" stroke="#b7c5ce" stroke-width="2" fill="none"/></g>
+<path d="M205 0 C205 70 200 120 172 165 C132 205 104 240 107 287 C110 324 140 344 182 342 C206 341 217 328 217 300 C217 254 234 224 260 224 C286 224 303 254 303 300 C303 330 318 348 346 349 C386 350 416 326 416 288 C417 242 390 205 350 165 C320 120 315 70 315 0 Z" fill="none" stroke="#8f7a55" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M110 384 C108 366 122 352 148 352 C178 354 208 362 226 372 L150 372 C130 372 118 376 110 384 Z" fill="url(#menis)" stroke="#a37a70" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M418 386 C420 366 404 352 376 352 C346 354 314 362 296 372 L372 372 C394 372 408 377 418 386 Z" fill="url(#menis)" stroke="#a37a70" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M110 268 C104 312 104 372 110 412 L124 410 C118 372 118 314 124 272 Z" fill="url(#lig)" stroke="#9a927f" stroke-width="1.5" stroke-linejoin="round" opacity="0.96"/>
+<path d="M398 256 C416 300 420 380 404 470 L386 468 C398 380 396 304 384 262 Z" fill="url(#lig)" stroke="#9a927f" stroke-width="1.5" stroke-linejoin="round" opacity="0.92"/>
+<path d="M394 262 C408 304 410 380 396 468" stroke="#b3ab99" stroke-width="1.1" fill="none"/>
+<path d="M214 262 L146 180 L168 160 L236 240 Z" fill="#fbe6d6" opacity="0.55" stroke="#8f3a0e" stroke-width="1.6" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<path d="M248 374 L296 472 L330 456 L294 370 Z" fill="#fbe6d6" opacity="0.55" stroke="#8f3a0e" stroke-width="1.6" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<path d="M164 170 L226 244 C244 286 272 332 290 370 L322 450 L302 460 L254 373 C244 344 232 314 218 262 L154 182 Z" fill="url(#rust)" stroke="#8f3a0e" stroke-width="1.8" stroke-linejoin="round" opacity="0.97"/>
+<path d="M160 177 L222 253 C240 298 262 338 272 371 L312 455" stroke="#8f3a0e" stroke-width="1.1" fill="none" opacity="0.6"/>
+<g transform="rotate(-42 150 164)"><rect x="128" y="158" width="44" height="12" rx="6" fill="#dfe5e8" stroke="#5d6b72" stroke-width="1.8"/><circle cx="141" cy="164" r="2.2" fill="#5d6b72"/><circle cx="159" cy="164" r="2.2" fill="#5d6b72"/></g>
+<g transform="rotate(-27 312 440)"><rect x="306" y="412" width="13" height="48" rx="5" fill="#dfe5e8" stroke="#5d6b72" stroke-width="1.6"/><line x1="306" y1="418" x2="319" y2="422" stroke="#5d6b72" stroke-width="1.4"/><line x1="306" y1="425" x2="319" y2="429" stroke="#5d6b72" stroke-width="1.4"/><line x1="306" y1="432" x2="319" y2="436" stroke="#5d6b72" stroke-width="1.4"/><line x1="306" y1="439" x2="319" y2="443" stroke="#5d6b72" stroke-width="1.4"/><line x1="306" y1="446" x2="319" y2="450" stroke="#5d6b72" stroke-width="1.4"/><line x1="306" y1="453" x2="319" y2="457" stroke="#5d6b72" stroke-width="1.4"/></g>
+</g>
+<path d="M112.08 228.32 L217.4 240.0" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="217.4" cy="240.0" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="20" y="236" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="start">Button</text>
+<text x="20" y="261" font-size="20" fill="#465b60" text-anchor="start">holds the graft</text>
+<text x="20" y="285" font-size="20" fill="#465b60" text-anchor="start">on the thigh</text>
+<text x="20" y="309" font-size="20" fill="#465b60" text-anchor="start">bone</text>
+<path d="M486.88 242.32 L266.0 280.5" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="266.0" cy="280.5" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="620" y="250" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="end">Tunnel in</text>
+<text x="620" y="275" font-size="20" fill="#465b60" text-anchor="end">thigh bone</text>
+<path d="M153.12 392.32 L307.4 366.0" stroke="#c2541a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="307.4" cy="366.0" r="4" fill="#c2541a" stroke="#ffffff" stroke-width="1.5"/>
+<text x="20" y="400" font-size="24" font-weight="700" fill="#c2541a" text-anchor="start">New graft</text>
+<text x="20" y="425" font-size="20" fill="#c2541a" text-anchor="start">sits where</text>
+<text x="20" y="449" font-size="20" fill="#c2541a" text-anchor="start">the ACL</text>
+<text x="20" y="473" font-size="20" fill="#c2541a" text-anchor="start">used to be</text>
+<path d="M541.6 462.32 L372.2 490.2" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="372.2" cy="490.2" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="620" y="470" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="end">Screw</text>
+<text x="620" y="495" font-size="20" fill="#465b60" text-anchor="end">holds the graft</text>
+<text x="620" y="519" font-size="20" fill="#465b60" text-anchor="end">in the shin bone</text>
+<path d="M153.12 592.32 L341.6 474.0" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="341.6" cy="474.0" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="20" y="600" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="start">Tunnel in</text>
+<text x="20" y="625" font-size="20" fill="#465b60" text-anchor="start">shin bone</text>
+<text x="320.0" y="704" font-size="17" fill="#465b60" text-anchor="middle">Outer side of the knee is on the left of this picture</text>
+</svg>

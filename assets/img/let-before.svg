@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" width="640" height="800" role="img" aria-labelledby="let-before-t let-before-d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <title id="let-before-t">Before the LET: where the strip comes from</title>
+  <desc id="let-before-d">Outer-side view of a right knee, with the kneecap on the right of the picture. The thigh bone is at the top, the shin bone and fibula are below. The iliotibial band, a wide flat band shown see-through, runs down the outer thigh, crosses the knee and attaches to a bump on the front-outer shin bone called Gerdy's tubercle. A dashed orange outline marks the thin strip of the band that the surgeon will use. The fibular collateral ligament runs from the outer bump of the thigh bone down to the top of the fibula.</desc>
+
+  <defs>
+    <linearGradient id="bone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dccaa4"/>
+      <stop offset="0.28" stop-color="#f3e9d2"/>
+      <stop offset="0.62" stop-color="#f7efdc"/>
+      <stop offset="1" stop-color="#d9c69d"/>
+    </linearGradient>
+    <linearGradient id="boneV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6eedb"/>
+      <stop offset="1" stop-color="#dfcfab"/>
+    </linearGradient>
+    <linearGradient id="cart" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f9fb"/>
+      <stop offset="1" stop-color="#d5e0e7"/>
+    </linearGradient>
+    <linearGradient id="lig" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9d3c6"/>
+      <stop offset="0.5" stop-color="#f6f3ec"/>
+      <stop offset="1" stop-color="#d2ccbe"/>
+    </linearGradient>
+    <linearGradient id="rust" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b54a13"/>
+      <stop offset="0.5" stop-color="#e07a42"/>
+      <stop offset="1" stop-color="#b54a13"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#125a5a"/>
+      <stop offset="0.5" stop-color="#3f9a98"/>
+      <stop offset="1" stop-color="#125a5a"/>
+    </linearGradient>
+    <linearGradient id="indigo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#43408f"/>
+      <stop offset="0.5" stop-color="#7b78c9"/>
+      <stop offset="1" stop-color="#43408f"/>
+    </linearGradient>
+    <linearGradient id="muscle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9645c"/>
+      <stop offset="0.5" stop-color="#d98d82"/>
+      <stop offset="1" stop-color="#b9645c"/>
+    </linearGradient>
+    <linearGradient id="menis" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecd3cb"/>
+      <stop offset="1" stop-color="#cfa79c"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#8d7868"/>
+      <stop offset="1" stop-color="#5e4f45"/>
+    </radialGradient>
+    <pattern id="spongy" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="1.3" fill="#c9b58c" opacity="0.55"/>
+      <circle cx="10" cy="10" r="1.1" fill="#c9b58c" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+<rect width="640" height="800" rx="14" fill="#ffffff"/>
+<text x="320.0" y="40" font-size="27" font-weight="700" fill="#0d4444" text-anchor="middle">1. Where the strip comes from</text>
+<text x="320.0" y="66" font-size="18" fill="#465b60" text-anchor="middle">Right knee, seen from the outer side</text>
+<g transform="translate(60 92) scale(0.93)">
+<path d="M190 424 C188 414 198 410 214 410 L350 410 C362 410 368 416 369 426 C371 446 380 462 382 480 C383 500 368 514 354 532 C340 572 334 622 334 680 L250 680 C250 622 248 572 238 534 C228 498 196 474 190 444 Z" fill="url(#bone)" stroke="#8f7a55" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M190 424 C188 414 198 410 214 410 L350 410 C362 410 368 416 369 426 C371 446 380 462 382 480 C383 500 368 514 354 532 C340 572 334 622 334 680 L250 680 C250 622 248 572 238 534 C228 498 196 474 190 444 Z" fill="url(#spongy)" opacity="0.5"/>
+<path d="M238 0 C240 100 240 178 226 228 C200 250 178 286 180 326 C182 372 222 400 272 400 C322 400 364 380 370 336 C374 300 360 262 342 234 C330 190 328 100 328 0 Z" fill="url(#bone)" stroke="#8f7a55" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M238 0 C240 100 240 178 226 228 C200 250 178 286 180 326 C182 372 222 400 272 400 C322 400 364 380 370 336 C374 300 360 262 342 234 C330 190 328 100 328 0 Z" fill="url(#spongy)" opacity="0.5"/>
+<clipPath id="fc-before"><path d="M238 0 C240 100 240 178 226 228 C200 250 178 286 180 326 C182 372 222 400 272 400 C322 400 364 380 370 336 C374 300 360 262 342 234 C330 190 328 100 328 0 Z"/></clipPath>
+<clipPath id="fr-before"><rect x="150" y="262" width="260" height="160"/></clipPath>
+<g clip-path="url(#fr-before)"><path d="M238 0 C240 100 240 178 226 228 C200 250 178 286 180 326 C182 372 222 400 272 400 C322 400 364 380 370 336 C374 300 360 262 342 234 C330 190 328 100 328 0 Z" fill="none" stroke="#dfe8ee" stroke-width="26" clip-path="url(#fc-before)"/><path d="M238 0 C240 100 240 178 226 228 C200 250 178 286 180 326 C182 372 222 400 272 400 C322 400 364 380 370 336 C374 300 360 262 342 234 C330 190 328 100 328 0 Z" fill="none" stroke="#a9b8c2" stroke-width="1.4" transform="translate(0 0)" opacity="0"/></g>
+<path d="M238 0 C240 100 240 178 226 228 C200 250 178 286 180 326 C182 372 222 400 272 400 C322 400 364 380 370 336 C374 300 360 262 342 234 C330 190 328 100 328 0 Z" fill="none" stroke="#8f7a55" stroke-width="2.4" stroke-linejoin="round"/>
+<ellipse cx="262" cy="316" rx="15" ry="12" fill="#efe3c6" stroke="#b9a57c" stroke-width="1.5"/>
+<path d="M192 420 C196 402 214 398 232 404 L330 404 C350 398 364 404 368 420 C350 414 330 412 300 412 L240 412 C220 412 204 414 192 420 Z" fill="url(#menis)" stroke="#a37a70" stroke-width="1.4"/>
+<ellipse cx="322" cy="442" rx="20" ry="13" fill="#efe3c6" stroke="#b9a57c" stroke-width="1.5"/>
+<path d="M186 462 C184 446 196 436 206 440 C210 430 216 432 218 442 C228 450 228 470 222 486 C218 540 220 610 220 680 L198 680 C198 610 198 540 192 492 C188 482 186 472 186 462 Z" fill="url(#bone)" stroke="#8f7a55" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M338 0 C340 100 356 190 379 246 L416 250 C398 190 384 100 380 0 Z" fill="url(#lig)" stroke="#9a927f" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M389 357 C389 400 380 440 366 470 L384 482 C400 440 410 400 414 352 Z" fill="url(#lig)" stroke="#9a927f" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M375 246 C393 236 419 250 427 284 C433 318 423 350 403 360 C387 362 375 344 372 312 C369 284 369 262 375 246 Z" fill="url(#bone)" stroke="#8f7a55" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M374 254 C370 280 371 318 377 344" stroke="#dfe8ee" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M246 0 C248 120 262 262 304 440 L342 448 C356 300 352 120 350 0 Z" fill="#e9e4d6" stroke="#8d8672" stroke-width="1.6" stroke-linejoin="round" opacity="0.62"/>
+<path d="M270 0 C272 120 286 262 314 442" stroke="#8d8672" stroke-width="1" fill="none" opacity="0.496"/>
+<path d="M296 0 C298 120 308 262 324 444" stroke="#8d8672" stroke-width="1" fill="none" opacity="0.496"/>
+<path d="M324 0 C326 120 330 262 334 446" stroke="#8d8672" stroke-width="1" fill="none" opacity="0.496"/>
+<path d="M256 314 C240 356 218 404 200 446 L212 452 C230 410 252 362 268 320 Z" fill="url(#lig)" stroke="#7d7664" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M262 318 C246 360 224 408 206 449" stroke="#a8a08d" stroke-width="1.1" fill="none"/>
+<path d="M310 440 C300 372 284 292 270 214 L292 210 C304 290 322 372 336 444 Z" fill="#f4b58c" opacity="0.75"/>
+<path d="M310 440 C300 372 284 292 270 214 L292 210 C304 290 322 372 336 444 Z" fill="none" stroke="#c2541a" stroke-width="3" stroke-dasharray="9 6" stroke-linejoin="round"/>
+</g>
+<path d="M125.75999999999999 142.32 L329.7 157.1" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="329.7" cy="157.1" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="20" y="150" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="start">IT band</text>
+<text x="20" y="175" font-size="20" fill="#465b60" text-anchor="start">(shown</text>
+<text x="20" y="199" font-size="20" fill="#465b60" text-anchor="start">see-through)</text>
+<path d="M166.8 302.32 L286.9 274.3" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="286.9" cy="274.3" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="20" y="310" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="start">Thigh bone</text>
+<text x="20" y="335" font-size="20" fill="#465b60" text-anchor="start">(femur)</text>
+<path d="M514.24 392.32 L433.9 374.7" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="433.9" cy="374.7" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="620" y="400" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="end">Kneecap</text>
+<path d="M207.84 432.32 L275.8 456.6" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="275.8" cy="456.6" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="20" y="440" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="start">Side ligament</text>
+<text x="20" y="465" font-size="20" fill="#465b60" text-anchor="start">(FCL)</text>
+<path d="M486.88 192.32 L335.3 343.1" stroke="#c2541a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="335.3" cy="343.1" r="4" fill="#c2541a" stroke="#ffffff" stroke-width="1.5"/>
+<text x="620" y="200" font-size="24" font-weight="700" fill="#c2541a" text-anchor="end">Strip the</text>
+<text x="620" y="225" font-size="20" fill="#c2541a" text-anchor="end">surgeon uses</text>
+<path d="M514.24 602.32 L363.2 506.8" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="363.2" cy="506.8" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="620" y="610" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="end">Gerdy's</text>
+<text x="620" y="635" font-size="20" fill="#465b60" text-anchor="end">tubercle</text>
+<text x="620" y="659" font-size="20" fill="#465b60" text-anchor="end">(bump on the</text>
+<text x="620" y="683" font-size="20" fill="#465b60" text-anchor="end">shin bone)</text>
+<path d="M112.08 632.32 L253.4 612.8" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="253.4" cy="612.8" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="20" y="640" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="start">Fibula</text>
+<path d="M486.88 732.32 L339.0 650.0" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="339.0" cy="650.0" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="620" y="740" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="end">Shin bone</text>
+<text x="620" y="765" font-size="20" fill="#465b60" text-anchor="end">(tibia)</text>
+<text x="320.0" y="784" font-size="17" fill="#465b60" text-anchor="middle">Front of the knee is on the right of this picture</text>
+</svg>

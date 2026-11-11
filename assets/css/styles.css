@@ -391,7 +391,16 @@ figure {
   padding: 1rem;
   box-shadow: var(--shadow);
 }
-figure svg { display: block; width: 100%; height: auto; }
+figure svg, figure img { display: block; width: 100%; height: auto; }
+figure.figure-narrow img { max-width: 520px; margin: 0 auto; }
+figure.figure-graft { padding: 0.5rem 1rem 0.75rem; }
+figure.figure-graft img { max-width: 480px; margin: 0 auto; }
+.figure-pair { display: grid; grid-template-columns: 1fr; gap: 0.5rem; }
+.figure-pair img { max-width: 520px; margin: 0 auto; }
+@media (min-width: 1100px) {
+  figure.figure-wide { margin-left: -120px; margin-right: -120px; }
+  .figure-pair { grid-template-columns: 1fr 1fr; }
+}
 figcaption {
   font-size: 0.95rem;
   color: var(--c-muted);

@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 790" width="720" height="790" role="img" aria-labelledby="graft-sites-t graft-sites-d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <title id="graft-sites-t">Where each graft comes from</title>
+  <desc id="graft-sites-d">Front view of a right knee with the kneecap, the thigh muscle and the tendons shown. Three places a graft can be taken from are colored. Purple: a strip from the middle of the quadriceps tendon, just above the kneecap. Orange: the middle third of the patellar tendon, between the kneecap and the shin bone, with a small plug of bone at each end. Teal: two hamstring tendons that run down the inner back of the thigh and curve forward to attach on the inner side of the shin bone.</desc>
+
+  <defs>
+    <linearGradient id="bone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dccaa4"/>
+      <stop offset="0.28" stop-color="#f3e9d2"/>
+      <stop offset="0.62" stop-color="#f7efdc"/>
+      <stop offset="1" stop-color="#d9c69d"/>
+    </linearGradient>
+    <linearGradient id="boneV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6eedb"/>
+      <stop offset="1" stop-color="#dfcfab"/>
+    </linearGradient>
+    <linearGradient id="cart" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f9fb"/>
+      <stop offset="1" stop-color="#d5e0e7"/>
+    </linearGradient>
+    <linearGradient id="lig" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9d3c6"/>
+      <stop offset="0.5" stop-color="#f6f3ec"/>
+      <stop offset="1" stop-color="#d2ccbe"/>
+    </linearGradient>
+    <linearGradient id="rust" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b54a13"/>
+      <stop offset="0.5" stop-color="#e07a42"/>
+      <stop offset="1" stop-color="#b54a13"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#125a5a"/>
+      <stop offset="0.5" stop-color="#3f9a98"/>
+      <stop offset="1" stop-color="#125a5a"/>
+    </linearGradient>
+    <linearGradient id="indigo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#43408f"/>
+      <stop offset="0.5" stop-color="#7b78c9"/>
+      <stop offset="1" stop-color="#43408f"/>
+    </linearGradient>
+    <linearGradient id="muscle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9645c"/>
+      <stop offset="0.5" stop-color="#d98d82"/>
+      <stop offset="1" stop-color="#b9645c"/>
+    </linearGradient>
+    <linearGradient id="menis" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecd3cb"/>
+      <stop offset="1" stop-color="#cfa79c"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#8d7868"/>
+      <stop offset="1" stop-color="#5e4f45"/>
+    </radialGradient>
+    <pattern id="spongy" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="1.3" fill="#c9b58c" opacity="0.55"/>
+      <circle cx="10" cy="10" r="1.1" fill="#c9b58c" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+<rect width="720" height="790" rx="14" fill="#ffffff"/>
+<text x="360.0" y="40" font-size="27" font-weight="700" fill="#0d4444" text-anchor="middle">Where each graft comes from</text>
+<text x="360.0" y="66" font-size="18" fill="#465b60" text-anchor="middle">Right knee, front view</text>
+<g transform="translate(112 100) scale(0.92)">
+<path d="M92 446 C86 420 106 404 124 408 C142 412 150 432 144 458 C138 500 134 560 134 640 L110 640 C110 560 106 500 98 470 Z" fill="url(#bone)" stroke="#8f7a55" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M110 384 C108 372 122 366 150 367 L226 371 C238 371 244 353 251 351 C256 350 258 356 261 356 C264 356 266 350 271 351 C278 353 284 371 296 371 L372 367 C400 366 418 372 418 386 C420 404 410 420 396 436 C366 470 332 500 324 560 L320 640 L204 640 C202 560 190 505 152 458 C128 432 112 410 110 384 Z" fill="url(#bone)" stroke="#8f7a55" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M110 384 C108 372 122 366 150 367 L226 371 C238 371 244 353 251 351 C256 350 258 356 261 356 C264 356 266 350 271 351 C278 353 284 371 296 371 L372 367 C400 366 418 372 418 386 C420 404 410 420 396 436 C366 470 332 500 324 560 L320 640 L204 640 C202 560 190 505 152 458 C128 432 112 410 110 384 Z" fill="url(#spongy)" opacity="0.5"/>
+<path d="M215 304 C215 254 234 222 260 222 C286 222 305 254 305 304 L305 374 L215 374 Z" fill="#f1e2a8" stroke="#cdb873" stroke-width="1.2"/>
+<path d="M205 0 C205 70 200 120 172 165 C132 205 104 240 107 287 C110 324 140 344 182 342 C206 341 217 328 217 300 C217 254 234 224 260 224 C286 224 303 254 303 300 C303 330 318 348 346 349 C386 350 416 326 416 288 C417 242 390 205 350 165 C320 120 315 70 315 0 Z" fill="url(#bone)" stroke="#8f7a55" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M205 0 C205 70 200 120 172 165 C132 205 104 240 107 287 C110 324 140 344 182 342 C206 341 217 328 217 300 C217 254 234 224 260 224 C286 224 303 254 303 300 C303 330 318 348 346 349 C386 350 416 326 416 288 C417 242 390 205 350 165 C320 120 315 70 315 0 Z" fill="url(#spongy)" opacity="0.5"/>
+<clipPath id="gfem"><path d="M205 0 C205 70 200 120 172 165 C132 205 104 240 107 287 C110 324 140 344 182 342 C206 341 217 328 217 300 C217 254 234 224 260 224 C286 224 303 254 303 300 C303 330 318 348 346 349 C386 350 416 326 416 288 C417 242 390 205 350 165 C320 120 315 70 315 0 Z"/></clipPath>
+<g clip-path="url(#gfem)"><path d="M90 268 C130 222 200 196 260 204 C320 196 390 222 432 268 L432 360 L90 360 Z" fill="url(#cart)" stroke="#a9b8c2" stroke-width="1.6"/></g>
+<path d="M205 0 C205 70 200 120 172 165 C132 205 104 240 107 287 C110 324 140 344 182 342 C206 341 217 328 217 300 C217 254 234 224 260 224 C286 224 303 254 303 300 C303 330 318 348 346 349 C386 350 416 326 416 288 C417 242 390 205 350 165 C320 120 315 70 315 0 Z" fill="none" stroke="#8f7a55" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M110 384 C108 366 122 352 148 352 C178 354 208 362 226 372 L150 372 C130 372 118 376 110 384 Z" fill="url(#menis)" stroke="#a37a70" stroke-width="1.5"/>
+<path d="M418 386 C420 366 404 352 376 352 C346 354 314 362 296 372 L372 372 C394 372 408 377 418 386 Z" fill="url(#menis)" stroke="#a37a70" stroke-width="1.5"/>
+<path d="M150 -10 C150 50 176 96 208 124 L312 124 C344 96 370 50 370 -10 Z" fill="url(#muscle)" stroke="#8f4a44" stroke-width="1.6"/>
+<path d="M180 -6 C180 40 220 90 226 122" stroke="#8f4a44" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M205 -6 C205 40 232 90 237 122" stroke="#8f4a44" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M232 -6 C232 40 246 90 248 122" stroke="#8f4a44" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M260 -6 C260 40 260 90 260 122" stroke="#8f4a44" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M288 -6 C288 40 274 90 272 122" stroke="#8f4a44" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M315 -6 C315 40 288 90 283 122" stroke="#8f4a44" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M340 -6 C340 40 300 90 294 122" stroke="#8f4a44" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M206 118 C214 150 208 180 208 206 L312 206 C312 180 306 150 314 118 Z" fill="url(#lig)" stroke="#9a927f" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M226 296 C230 350 234 410 236 452 C246 462 274 462 284 452 C286 410 290 350 294 296 Z" fill="url(#lig)" stroke="#9a927f" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M204 236 C204 206 232 194 260 194 C288 194 316 206 316 236 C316 272 292 314 260 322 C228 314 204 272 204 236 Z" fill="url(#boneV)" stroke="#8f7a55" stroke-width="2.4" stroke-linejoin="round"/>
+<ellipse cx="248" cy="232" rx="26" ry="16" fill="#ffffff" opacity="0.45"/>
+<rect x="244" y="112" width="32" height="92" rx="6" fill="url(#indigo)" stroke="#2f2c78" stroke-width="2"/>
+<line x1="252" y1="118" x2="252" y2="198" stroke="#2f2c78" stroke-width="1" opacity="0.55"/>
+<line x1="260" y1="118" x2="260" y2="198" stroke="#2f2c78" stroke-width="1" opacity="0.55"/>
+<line x1="268" y1="118" x2="268" y2="198" stroke="#2f2c78" stroke-width="1" opacity="0.55"/>
+<rect x="246" y="304" width="28" height="150" fill="url(#rust)" stroke="#8f3a0e" stroke-width="2"/>
+<line x1="253" y1="318" x2="253" y2="450" stroke="#8f3a0e" stroke-width="1" opacity="0.55"/>
+<line x1="260" y1="318" x2="260" y2="450" stroke="#8f3a0e" stroke-width="1" opacity="0.55"/>
+<line x1="267" y1="318" x2="267" y2="450" stroke="#8f3a0e" stroke-width="1" opacity="0.55"/>
+<rect x="244" y="280" width="32" height="34" rx="3" fill="#f6dcc8" stroke="#8f3a0e" stroke-width="2.4"/>
+<rect x="244" y="448" width="32" height="34" rx="3" fill="#f6dcc8" stroke="#8f3a0e" stroke-width="2.4"/>
+<rect x="244" y="280" width="32" height="34" rx="3" fill="url(#spongy)"/>
+<rect x="244" y="448" width="32" height="34" rx="3" fill="url(#spongy)"/>
+<path d="M436 -10 C442 190 442 330 424 392 C410 432 362 442 320 448" fill="none" stroke="#0d4444" stroke-width="13" stroke-linecap="round"/>
+<path d="M436 -10 C442 190 442 330 424 392 C410 432 362 442 320 448" fill="none" stroke="#2f8b89" stroke-width="9" stroke-linecap="round"/>
+<path d="M436 -10 C442 190 442 330 424 392 C410 432 362 442 320 448" fill="none" stroke="#7cc3c0" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+<path d="M456 -10 C462 200 460 340 438 406 C420 450 366 460 322 466" fill="none" stroke="#0d4444" stroke-width="13" stroke-linecap="round"/>
+<path d="M456 -10 C462 200 460 340 438 406 C420 450 366 460 322 466" fill="none" stroke="#2f8b89" stroke-width="9" stroke-linecap="round"/>
+<path d="M456 -10 C462 200 460 340 438 406 C420 450 366 460 322 466" fill="none" stroke="#7cc3c0" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+</g>
+<path d="M164.8 142.32 L343.8 238.0" stroke="#4a47a0" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="343.8" cy="238.0" r="4" fill="#4a47a0" stroke="#ffffff" stroke-width="1.5"/>
+<text x="18" y="150" font-size="24" font-weight="700" fill="#4a47a0" text-anchor="start">Quadriceps</text>
+<text x="18" y="175" font-size="20" fill="#4a47a0" text-anchor="start">tendon graft</text>
+<text x="18" y="199" font-size="20" fill="#4a47a0" text-anchor="start">above the</text>
+<text x="18" y="223" font-size="20" fill="#4a47a0" text-anchor="start">kneecap</text>
+<path d="M123.75999999999999 292.32 L316.2 341.0" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="316.2" cy="341.0" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="18" y="300" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="start">Kneecap</text>
+<path d="M164.8 362.32 L246.3 376.0" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="246.3" cy="376.0" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="18" y="370" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="start">Thigh bone</text>
+<text x="18" y="395" font-size="20" fill="#465b60" text-anchor="start">(femur)</text>
+<path d="M137.44 452.32 L343.8 460.6" stroke="#c2541a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="343.8" cy="460.6" r="4" fill="#c2541a" stroke="#ffffff" stroke-width="1.5"/>
+<text x="18" y="460" font-size="24" font-weight="700" fill="#c2541a" text-anchor="start">Patellar</text>
+<text x="18" y="485" font-size="20" fill="#c2541a" text-anchor="start">tendon graft</text>
+<text x="18" y="509" font-size="20" fill="#c2541a" text-anchor="start">middle third,</text>
+<text x="18" y="533" font-size="20" fill="#c2541a" text-anchor="start">with a bone</text>
+<text x="18" y="557" font-size="20" fill="#c2541a" text-anchor="start">plug at</text>
+<text x="18" y="581" font-size="20" fill="#c2541a" text-anchor="start">each end</text>
+<path d="M568.88 162.32 L527.8 210.4" stroke="#186b6b" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="527.8" cy="210.4" r="4" fill="#186b6b" stroke="#ffffff" stroke-width="1.5"/>
+<text x="702" y="170" font-size="24" font-weight="700" fill="#186b6b" text-anchor="end">Hamstring</text>
+<text x="702" y="195" font-size="20" fill="#186b6b" text-anchor="end">tendon graft</text>
+<text x="702" y="219" font-size="20" fill="#186b6b" text-anchor="end">two tendons</text>
+<text x="702" y="243" font-size="20" fill="#186b6b" text-anchor="end">from the inner</text>
+<text x="702" y="267" font-size="20" fill="#186b6b" text-anchor="end">back of the</text>
+<text x="702" y="291" font-size="20" fill="#186b6b" text-anchor="end">thigh</text>
+<path d="M110.08 692.32 L222.4 615.2" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="222.4" cy="615.2" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="18" y="700" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="start">Fibula</text>
+<path d="M568.88 692.32 L388.0 615.2" stroke="#1a2b2e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<circle cx="388.0" cy="615.2" r="4" fill="#1a2b2e" stroke="#ffffff" stroke-width="1.5"/>
+<text x="702" y="700" font-size="24" font-weight="700" fill="#1a2b2e" text-anchor="end">Shin bone</text>
+<text x="702" y="725" font-size="20" fill="#465b60" text-anchor="end">(tibia)</text>
+<text x="360.0" y="774" font-size="17" fill="#465b60" text-anchor="middle">Inner side of the knee is on the right of this picture</text>
+</svg>
