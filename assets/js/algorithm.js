@@ -37,7 +37,7 @@ const QUESTIONS = [
       { label: 'No, I do mostly straight-line activity (running, cycling, swimming)',    weight: 0, uncertain: false },
       { label: "I don't know",                                                           weight: 1, uncertain: true  },
     ],
-    reason: 'Returning to cutting and pivoting sports roughly quadruples the chance of a graft rupture.',
+    reason: 'In one study, people who went back to cutting and pivoting sports had about four times the odds of a graft rupture.',
   },
   {
     id: 'q3',
@@ -50,7 +50,7 @@ const QUESTIONS = [
       { label: 'No / not that I know of',     weight: 0, uncertain: false },
       { label: "I don't know",                weight: 1, uncertain: true  },
     ],
-    reason: 'A high-grade pivot shift (strong give-way on exam) is a key sign that your knee will benefit from the extra stability an LET provides.',
+    reason: 'A high-grade pivot shift (strong give-way on exam) is a key sign that your knee may benefit from the extra stability an LET provides. It is one of the features used to select patients in the main LET trial.',
   },
   {
     id: 'q4',
@@ -63,7 +63,7 @@ const QUESTIONS = [
       { label: 'No, normal flexibility',                    weight: 0, uncertain: false },
       { label: "I don't know",                              weight: 1, uncertain: true  },
     ],
-    reason: 'Generalized joint looseness (hypermobility) more than triples the risk of a graft failing after ACL surgery.',
+    reason: 'Very flexible joints were one of the features used to select patients in the main LET trial. In that trial, marked looseness before surgery was linked to a higher chance of graft rupture.',
   },
   {
     id: 'q5',
@@ -103,7 +103,7 @@ const QUESTIONS = [
       { label: 'No / knock-kneed instead / normal',            weight: 0, uncertain: false },
       { label: "I don't know",                                 weight: 1, uncertain: true  },
     ],
-    reason: 'Bow-legged alignment (varus) increases stress on the outer side of the knee, where the LET provides extra support.',
+    reason: 'Bow-legged alignment (varus) can put extra stress on a new ACL graft. Evidence that it changes how much an LET helps is limited, so this is mainly something to raise with your surgeon.',
   },
   {
     id: 'q8',
@@ -139,7 +139,7 @@ const QUESTIONS = [
       { label: 'No / not that I know of',           weight: 0, uncertain: false },
       { label: "I don't know",                      weight: 1, uncertain: true  },
     ],
-    reason: 'Adding an LET roughly halves the chance of a repaired meniscus re-tearing, making it especially valuable when the meniscus is already injured.',
+    reason: 'A torn or removed meniscus can make the knee shift more. In studies of a closely related procedure (ALLR), repairs of the inner meniscus held up better when the extra procedure was added.',
   },
   {
     id: 'q11',
@@ -320,8 +320,13 @@ document.addEventListener('keydown', e => {
   // Only act when a question is showing
   if (!document.getElementById('question-card')) return;
 
+  // Leave browser and assistive-technology shortcuts alone
+  if (e.altKey || e.ctrlKey || e.metaKey) return;
+
   const q = QUESTIONS[currentIndex];
   const key = e.key;
+  const target = e.target;
+  const tag = target && target.tagName;
 
   // Number keys 1-9 select option
   if (/^[1-9]$/.test(key)) {
@@ -336,8 +341,11 @@ document.addEventListener('keydown', e => {
     }
   }
 
-  // Enter advances
-  if (key === 'Enter') {
+  // Enter advances, but only from an answer choice (or the page itself).
+  // On a button or link, Enter keeps its normal meaning.
+  const onAnswer = tag === 'INPUT' && target.type === 'radio';
+  if (key === 'Enter' && (onAnswer || tag === 'BODY')) {
+    e.preventDefault();
     const nextBtn = document.getElementById('btn-next');
     if (nextBtn && !nextBtn.disabled) {
       nextBtn.click();
@@ -444,7 +452,7 @@ function computeAndRenderResult() {
   const html = `
     <div class="result-bucket ${bucket}" id="result-section">
       <span class="tag">${escHtml(meta.tag)}</span>
-      <h2>${escHtml(meta.label)}</h2>
+      <h2 id="result-heading" tabindex="-1">${escHtml(meta.label)}</h2>
       <p>${escHtml(meta.explanation)}</p>
     </div>
 
@@ -477,7 +485,11 @@ function computeAndRenderResult() {
   // Scroll result into view
   const resultSection = document.getElementById('result-section');
   if (resultSection) {
-    requestAnimationFrame(() => resultSection.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+    requestAnimationFrame(() => {
+      resultSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const heading = document.getElementById('result-heading');
+      if (heading) heading.focus({ preventScroll: true });
+    });
   }
 }
 

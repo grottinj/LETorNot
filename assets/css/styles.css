@@ -344,7 +344,7 @@ strong { color: var(--c-ink); }
 .result-bucket.high { background: linear-gradient(180deg, var(--c-brand-soft), var(--c-surface)); border-color: var(--c-brand); }
 .result-bucket.high .tag { background: var(--c-brand); color: white; }
 .result-bucket.middle { background: var(--c-warn-bg); border-color: #d8b76a; }
-.result-bucket.middle .tag { background: #b08527; color: white; }
+.result-bucket.middle .tag { background: #8a6410; color: white; }
 .result-bucket.low { background: var(--c-surface-2); }
 .result-bucket.low .tag { background: var(--c-muted); color: white; }
 .result-bucket h2 { color: var(--c-ink); margin: 0.25rem 0 0.6rem; }
@@ -395,6 +395,12 @@ figure svg, figure img { display: block; width: 100%; height: auto; }
 figure.figure-narrow img { max-width: 520px; margin: 0 auto; }
 figure.figure-graft { padding: 0.5rem 1rem 0.75rem; }
 figure.figure-graft img { max-width: 480px; margin: 0 auto; }
+figure a.zoom { display: block; }
+#result-heading:focus { outline: none; }
+@media (max-width: 600px) {
+  figure { padding: 0.4rem 0.25rem 0.75rem; }
+  figcaption { padding: 0 0.5rem; }
+}
 .figure-pair { display: grid; grid-template-columns: 1fr; gap: 0.5rem; }
 .figure-pair img { max-width: 520px; margin: 0 auto; }
 @media (min-width: 1100px) {
@@ -429,7 +435,11 @@ figcaption {
 .compare tr:last-child td { border-bottom: none; }
 @media (max-width: 600px) {
   .compare, .compare thead, .compare tbody, .compare tr, .compare th, .compare td { display: block; width: 100%; }
-  .compare thead { display: none; }
+  /* Keep the column headers for screen readers; hide them visually. */
+  .compare thead {
+    position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+  }
   .compare tr {
     background: var(--c-surface);
     border: 1px solid var(--c-line);
