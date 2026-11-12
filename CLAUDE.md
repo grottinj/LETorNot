@@ -17,7 +17,7 @@ This file is the source of truth that keeps every subagent consistent.
 - **Static site.** Plain HTML + CSS + vanilla JavaScript. No build step. No backend. No database. Algorithm runs entirely client-side.
 - Deployed via **GitHub Pages** from `main` branch.
 - Custom domain: **letornot.com** (CNAME file at repo root).
-- No external trackers. No analytics. The questionnaire stores nothing and sends nothing.
+- Visit counting: GoatCounter only (cookieless, `letornot.goatcounter.com`), added at Dr. Grotting's request in Nov 2026, with a privacy line in every footer. No other trackers or analytics. The questionnaire stores nothing and sends nothing; never put answers in the URL.
 
 ## File layout
 
