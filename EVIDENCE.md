@@ -162,6 +162,29 @@ Based on articles retrieved from PubMed during this research session:
 
 33. Thaunat M, Clowez G, Saithna A, et al. *Reoperation Rates After Combined Anterior Cruciate Ligament and Anterolateral Ligament Reconstruction: A Series of 548 Patients From the SANTI Study Group With a Minimum Follow-up of 2 Years.* Am J Sports Med. 2017;45(11):2569-2577. PMID: 28610433. doi: 10.1177/0363546517708982
 
+## Supporting references for the explainer pages (added 2026-11-11)
+
+These support general statements on the ACL and graft pages. They are not algorithm factors.
+
+34. van Melick N, van Cingel REH, Brooijmans F, et al. *Evidence-based clinical practice update: practice guidelines for anterior cruciate ligament rehabilitation based on a systematic review and multidisciplinary consensus.* Br J Sports Med. 2016;50(24):1506-1515. PMID: 27539507. doi: 10.1136/bjsports-2015-095898
+    - Supports: rehabilitation should continue 9–12 months (acl.html, return to sport).
+
+35. Grindem H, Snyder-Mackler L, Moksnes H, Engebretsen L, Risberg MA. *Simple decision rules can reduce reinjury risk by 84% after ACL reconstruction: the Delaware-Oslo ACL cohort study.* Br J Sports Med. 2016;50(13):804-808. PMID: 27162233. doi: 10.1136/bjsports-2016-096031
+    - Supports: reinjury rate fell for each month return to sport was delayed, up to 9 months (acl.html, return to sport).
+
+36. Kaeding CC, Pedroza AD, Reinke EK, Huston LJ, MOON Consortium, Spindler KP. *Risk Factors and Predictors of Subsequent ACL Injury in Either Knee After ACL Reconstruction: Prospective Analysis of 2488 Primary ACL Reconstructions From the MOON Cohort.* Am J Sports Med. 2015;43(7):1583-1590. PMID: 25899429. doi: 10.1177/0363546515578836
+    - Supports: odds of graft re-tear 5.2 times greater with allograft than BTB autograft (grafts.html, donor graft).
+
+37. Lezak BA, Mercer NP, Chen L, Lashgari A, Jazrawi L, Egol K. *Incidence and patient-reported outcomes of patella fractures following bone-patellar tendon-bone autograft anterior cruciate ligament reconstruction: a propensity-matched cohort analysis.* Eur J Orthop Surg Traumatol. 2025;35(1):340. PMID: 40770159. doi: 10.1007/s00590-025-04422-1
+    - Supports: patella fracture after BTB harvest is rare, 12 of 5770 (0.21%) (grafts.html, comparison table).
+
+38. Mouarbes D, Menetrey J, Marot V, Courtot L, Berard E, Cavaignac E. *Anterior Cruciate Ligament Reconstruction: A Systematic Review and Meta-analysis of Outcomes for Quadriceps Tendon Autograft Versus Bone-Patellar Tendon-Bone and Hamstring-Tendon Autografts.* Am J Sports Med. 2019;47(14):3531-3540. PMID: 30790526. doi: 10.1177/0363546518825340
+    - Supports: quadriceps tendon autograft has less donor-site pain than BPTB, risk ratio 0.25 (grafts.html, comparison table).
+
+Still without a retrieved source (left unchanged at the site owner's request, flagged for review):
+- acl.html: "Most people can walk without crutches within two to four weeks."
+- grafts.html: "most guidelines recommend autograft for patients under 25 who play sport" (the higher allograft re-tear rate is supported by ref 36; the "most guidelines" wording is not).
+
 ---
 
-*Last updated: 2026-05-28. All citations verified via PubMed MCP during this session.*
+*Last updated: 2026-11-11. Citations 1-33 verified via PubMed on 2026-05-28; citations 34-38 verified via PubMed on 2026-11-11.*

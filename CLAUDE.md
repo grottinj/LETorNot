@@ -34,6 +34,9 @@ This file is the source of truth that keeps every subagent consistent.
     css/styles.css
     js/algorithm.js      questionnaire + scoring + result rendering
     img/                 original SVG illustrations
+    data/updates.json    research updates (source of truth for the home page section)
+  tools/build_updates.py renders updates.json into index.html (authoring helper, not a site build)
+  sitemap.xml, robots.txt
   content/               source markdown drafts (not served, optional)
   EVIDENCE.md            factor table + reference list (single source of truth)
   ALGORITHM.md           question + scoring spec
@@ -86,6 +89,20 @@ Footer (every page):
 Result screen, final line:
 
 > This tool is educational only. Your surgeon — who knows your knee, your imaging, and your exam — decides what's right for you.
+
+## Author and review
+
+- Author and medical reviewer: **John Andrew Grotting, MD**, orthopedic sports medicine surgeon, Synergy Orthopedic Specialists, San Diego. Use this exact name form on the site.
+- Every page carries a "Medically reviewed by ... Last reviewed <date>" byline and matching `lastReviewed` in its JSON-LD. Only change the date when Dr. Grotting has actually reviewed the change.
+- The site states that it was built with the help of AI tools and reviewed by Dr. Grotting. Keep that statement.
+
+## Research updates (home page)
+
+- Source of truth: `assets/data/updates.json`. Render with `python3 tools/build_updates.py`, which rewrites the block between `<!-- updates:start -->` and `<!-- updates:end -->` in `index.html`.
+- **Nothing is published until Dr. Grotting has verified it.** An entry may be added to `updates.json` only after he has explicitly approved that specific article in chat. Never commit unverified drafts to the repository (it is public). Never write, guess or edit his comment: use his words exactly, or leave `comment` empty.
+- Entry fields: `pmid`, `title` (exact PubMed title), `journal` (ISO abbreviation), `published` (YYYY-MM-DD), `summary` (2-3 short plain-language sentences drawn only from the abstract; numbers must match the abstract), `comment` (his words, optional), `verified: true`, `verified_on` (the date he approved).
+- Summaries follow the hard rules: plain language, no scare language, no claims beyond the paper, and say when a study is small, retrospective or early.
+- The row is scrolled by the reader. Do not add auto-scrolling or animation (WCAG 2.2.2).
 
 ## Subagent guidance
 

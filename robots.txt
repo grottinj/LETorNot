@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://letornot.com/sitemap.xml
