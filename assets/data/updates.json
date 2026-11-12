@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "pmid": "42800674",
+    "title": "Lateral extra-articular augmentation is associated with improved graft survival after revision anterior cruciate ligament reconstruction.",
+    "journal": "J ISAKOS",
+    "published": "2026-10-19",
+    "doi": "10.1016/j.jisako.2026.101224",
+    "summary": "This study followed 300 people for about six years after a repeat (revision) ACL surgery. The new graft failed in 20 of 100 people who had ACL surgery alone, and in 19 of 200 who also had an extra procedure on the outside (lateral) knee. The study looked back at past cases, so it shows a link, not proof.",
+    "comment": "",
+    "verified": true,
+    "verified_on": "2026-11-11"
+  },
+  {
+    "pmid": "42852835",
+    "title": "Lateral Extra-articular Tenodesis Does Not Alter Early Gait Biomechanics After ACL Reconstruction in a Pediatric Population: A Motion Analysis Study.",
+    "journal": "Am J Sports Med",
+    "published": "2026-10-09",
+    "doi": "10.1177/03635465261487281",
+    "summary": "Seventy patients aged 18 or younger had their walking measured about four months after ACL surgery. Half of the patients had an LET added and half did not. Knee motion during walking was measured and was the same in both groups. This was looked at early on in the surgical recovery, so longer studies are needed.",
+    "comment": "",
+    "verified": true,
+    "verified_on": "2026-11-11"
+  },
+  {
+    "pmid": "42879166",
+    "title": "Low graft failure after primary anterior cruciate ligament reconstruction in professional soccer players: A retrospective cohort study of 232 knees from the SANTI Study Group.",
+    "journal": "Knee Surg Sports Traumatol Arthrosc",
+    "published": "2026-10-15",
+    "doi": "10.1002/ksa.70641",
+    "summary": "This study followed 232 ACL reconstructions in professional soccer players for about eight years. Overall, 13 grafts (5.6%) failed. Fewer grafts failed when an outer-knee (LET or ALL reconstruction) procedure was added (4.5% compared with 12.9%), but the difference was not statistically significant, meaning we don’t have enough evidence to tell whether it reflects a real difference or just chance.",
+    "comment": "",
+    "verified": true,
+    "verified_on": "2026-11-11"
+  }
+]
