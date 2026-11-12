@@ -104,9 +104,16 @@ Result screen, final line:
 
 - Source of truth: `assets/data/updates.json`. Render with `python3 tools/build_updates.py`, which rewrites the block between `<!-- updates:start -->` and `<!-- updates:end -->` in `index.html`.
 - **Nothing is published until Dr. Grotting has verified it.** An entry may be added to `updates.json` only after he has explicitly approved that specific article in chat. Never commit unverified drafts to the repository (it is public). Never write, guess or edit his comment: use his words exactly, or leave `comment` empty.
-- Entry fields: `pmid`, `title` (exact PubMed title), `journal` (ISO abbreviation), `published` (YYYY-MM-DD), `summary` (2-3 short plain-language sentences drawn only from the abstract; numbers must match the abstract), `comment` (his words, optional), `verified: true`, `verified_on` (the date he approved).
+- Entry fields: `pmid`, `doi`, `authors` (first three, then "et al."), `citation` (Journal. Year;Vol(Issue):Pages.), `in_algorithm` (false until the quarterly review folds it into the main list), `title` (exact PubMed title), `journal` (ISO abbreviation), `published` (YYYY-MM-DD), `summary` (2-3 short plain-language sentences drawn only from the abstract; numbers must match the abstract), `comment` (his words, optional), `verified: true`, `verified_on` (the date he approved).
 - Summaries follow the hard rules: plain language, no scare language, no claims beyond the paper, and say when a study is small, retrospective or early.
+- The same script lists every verified entry with `in_algorithm: false` under "Recent research updates" on `references.html`, separate from the numbered main list.
 - The row is scrolled by the reader. Do not add auto-scrolling or animation (WCAG 2.2.2).
+
+## Quarterly evidence review (Feb, May, Aug, Nov)
+
+- Every three months the verified research updates are reviewed for inclusion in the main evidence base: added to `EVIDENCE.md` under the factor they bear on, given the next reference numbers in the main list on `references.html`, and marked `in_algorithm: true` so they leave the "Recent" list.
+- Algorithm changes (weights, thresholds, questions, result wording in `ALGORITHM.md` and `assets/js/algorithm.js`) are **proposed, never applied, without Dr. Grotting's explicit approval** of the specific change. One new study rarely justifies a weight change; say so plainly when it does not.
+- After an approved change: update `ALGORITHM.md` and `algorithm.js` together, re-run the scoring checks, update the "Last updated" line in `EVIDENCE.md`, and set the reviewed date only if he reviewed it.
 
 ## Subagent guidance
 

@@ -551,3 +551,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, .option:focus-within
 .update-meta { font-size: 0.85rem; color: #465b60; margin: 0; }
 .update-comment { background: #eef6f5; border-left: 3px solid #186b6b; padding: 0.5rem 0.75rem; border-radius: 4px; }
 .update-verified { font-size: 0.85rem; color: #465b60; margin-bottom: 0; }
+
+/* References: recent research updates (separate from the numbered main list) */
+.recent-refs { list-style: disc; padding-left: 1.25rem; }
+.recent-refs li { margin-bottom: 1rem; }
+.recent-refs a { word-break: break-word; }
