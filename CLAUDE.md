@@ -94,6 +94,8 @@ Result screen, final line:
 
 - Author and medical reviewer: **John Andrew Grotting, MD**, orthopedic sports medicine surgeon, Synergy Orthopedic Specialists, San Diego. Use this exact name form on the site.
 - Every page carries a "Medically reviewed by ... Last reviewed <date>" byline and matching `lastReviewed` in its JSON-LD. Only change the date when Dr. Grotting has actually reviewed the change.
+- His name links to https://www.sandiegoshouldersurgeon.com wherever it appears as author or reviewer.
+- Every footer carries: "Any opinions expressed on this site are those of Dr. Grotting alone. They do not reflect the views of Synergy Orthopedic Specialists or any other company or organization."
 - The site states that it was built with the help of AI tools and reviewed by Dr. Grotting. Keep that statement.
 - Disclosure (his chosen wording, home page): "Dr. Grotting has no financial relationships with companies whose products are discussed on this site." If the site ever discusses a specific company's product, ask him to re-confirm this line first.
 - Two statements are intentionally left uncited at his direction (crutches timeline on acl.html; "most guidelines recommend autograft" on grafts.html). Do not change them without asking.
